@@ -20,9 +20,9 @@ export default class extends Component {
 
   componentWillMount() {
     injectGlobal`
-       html {
+       html, body {
          margin:0;
-         background-color: #E5E5E5;
+         background-color: #e5f3ff;
        }
      `;
   }

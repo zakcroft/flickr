@@ -4,16 +4,17 @@ export const StyledItem = styled.div`
   flex: 1;
   margin:10px;
   padding:20px;
-  font-size: 10px;
+  font-size: 14px;
+  background-color:  #f8f8ff;
   border: 1px solid rgba(74,74,74,0.075);
-  background-color:  #E5E5E5;
+  border-radius:  6px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12);
     a {
       display:inline-block;
-      color: #575972;
+      color: #2e2e2e;
       text-decoration: none;
       &:hover {
-        color: #9797C9;
+        color: #8b8b8b;
        }
       > :first{
         margin-top:10px;
@@ -21,9 +22,11 @@ export const StyledItem = styled.div`
       &:nth-child(2){
         font-size:12px;
         font-weight: bold; 
+        font-style: italic;
        }
     };
     section {
+      font-size: 10px;
       color: #444;
     }
 `;
@@ -31,6 +34,9 @@ export const StyledItem = styled.div`
 export const ImgContainer = styled.div`
   margin: 0 auto;
   width:200px;
+  background-color: rgba(255,255,255,0.12);
+  border-radius:  6px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.12);
 `;
 
 export const Img = styled.img`
